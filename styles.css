@@ -1,0 +1,237 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    align-content: center;
+  }
+  
+  header {
+    background-color: rgba(15, 31, 210, 0.133);
+    color: #0e0a0e;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://tuttlemarketing.com/wp-content/uploads/2016/06/special-events.jpg");
+    
+
+  }
+  
+  .hero-content{
+    text-align: center;
+  }
+
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 250;
+    text-align: center;
+    
+  }
+  
+  .about-us {
+    background-color: #d4a2d1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+   
+  }
+  
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #636262;
+    border-radius: 5px;
+    margin: 5px 5px;
+  }
+  #contact-form{
+    color: white;
+  }
+  form button {
+    background-color: aliceblue;
+    color: #626161;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  form button:hover {
+    background-color: aliceblue;
+  }
+  
+.events {
+    padding: 50px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvgRUDaac4W7pBN3XsXuoMhQrLWfiuY85OYw&usqp=CAU");
+    
+  }
+  
+  .events h2 {
+    margin-bottom: 20px;
+  }
+  
+  .event-card {
+    display: flex;
+    background-color: #edcde9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .event-card img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .event-details p {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    background-color: aliceblue;
+    color: #474646;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(253, 222, 243); main {
+        padding-top: 20px;
+    };
+  }
+  main {
+    padding-top: 20px;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  footer {
+    background-color: hsl(297, 28%, 68%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #feedback-form{
+    display: block;
+    text-align: center;
+    
+    font-style: Helvetica;
+    /* top: 50%; */
+    width:50%;
+    margin:10%;
+   
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    box-shadow: 0 0 50px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+  }
+
+  .bg-img {
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY5MTk3NS13aWtpbWVkaWEtaW1hZ2Uta293YjI4OTguanBn.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.image{
+  justify-content: center;
+}
+.gallery{
+  background-color: rgb(232, 174, 232);
+}
+.img{
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 4px 4px 4px 4px;
+}
